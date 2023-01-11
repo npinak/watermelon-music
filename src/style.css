@@ -1,0 +1,51 @@
+#content{
+    display:grid;
+    grid-template-rows: 10vh 90vh;
+    background-color: red;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    border-bottom: 1px solid;
+}
+
+#main_page {
+    display:grid;
+    /* grid-template-columns: 95vw;
+    grid-template-rows: 100vh; */
+    height: 100%;
+    border: 1px solid;
+    background: green;
+    justify-items: center;
+    justify-content: center;
+}
+
+#lesson_div {
+    background-color: wheat;
+    width: 100%;
+    height: 100%;
+}
+
+.music_lesson_div{
+    display:grid;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
