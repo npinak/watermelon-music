@@ -1,5 +1,6 @@
 import './style.css'; // import css style sheet 
 import lessons from './lessons.js'
+import home_page from './home.js'
 
 function restuarant_page(){
 
@@ -50,7 +51,11 @@ function restuarant_page(){
     
     console.log(main_div)
 
-    document.getElementById("lesson_button").onclick = lessons; // !!!! test !!!!
+    document.getElementById("lesson_button").onclick = lessons;
+    document.getElementById("home_button").onclick = home_page; 
+    home_page()
+
+ 
 
     return main_div; //very important to return main_div, whole thing does not work if a tiny part does not work
 }
