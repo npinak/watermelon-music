@@ -30,7 +30,10 @@ function contact_page() {
     contact_p.appendChild(contact_node)
     textbox.appendChild(contact_p)
 
-
+    // disable contact button, enable home and lesson button
+    document.getElementById("home_button").disabled = false;
+    document.getElementById("lesson_button").disabled = false;
+    document.getElementById("contact_button").disabled = true;
 
 
 

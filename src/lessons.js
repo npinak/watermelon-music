@@ -50,6 +50,12 @@ function lessons(){
     piano_div.setAttribute("id", "piano")
     center_box.appendChild(piano_div)
     piano_div.appendChild(piano_p)
+
+
+    //disable lesson button, enable home and contact button
+    document.getElementById("home_button").disabled = false;
+    document.getElementById("lesson_button").disabled = true;
+    document.getElementById("contact_button").disabled = false;
    
 }
 

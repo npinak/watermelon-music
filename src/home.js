@@ -44,6 +44,12 @@ function home_page(){
     home_p.appendChild(home_node)
     text_box.appendChild(home_p)
 
+    //disable home button and enable contact and lesson button
+
+    document.getElementById("home_button").disabled = true;
+    document.getElementById("lesson_button").disabled = false;
+    document.getElementById("contact_button").disabled = false;
+
 
 }
 
