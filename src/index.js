@@ -62,6 +62,7 @@ function restuarant_page(){
     document.getElementById("home_button").onclick = home_page; 
     document.getElementById("contact_button").onclick = contact_page;
 
+    home_page()
  
 
     return main_div; //very important to return main_div, whole thing does not work if a tiny part does not work

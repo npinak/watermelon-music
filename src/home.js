@@ -26,14 +26,18 @@ function home_page(){
     picture_border.appendChild(picture_box)
     picture_side.classList.add('picture_side')
     picture_box.classList.add('picture_box')
+    picture_border.classList.add('picture_border')
 
     // Text Side 
     const text_side = document.createElement('div')
     const text_box = document.createElement('div')
+    const text_border = document.createElement('div')
     home_page.appendChild(text_side)
-    text_side.appendChild(text_box)
+    text_side.appendChild(text_border)
+    text_border.appendChild(text_box)
     text_side.classList.add('text_side')
     text_box.classList.add('text_box')
+    text_border.classList.add('text_border')
     const home_p = document.createElement('h1')
     let home_string = `Watermelon Music offers lessons to all age groups! Click on the lessons tab to find out more!`;
     const home_node = document.createTextNode(home_string)

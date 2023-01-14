@@ -145,9 +145,19 @@ h1 {
     height: 100%;
 }
 
+.picture_border{
+    display: flex;
+    width:60%;
+    height:60%;
+    background-color: rgba(0, 0, 0, 0.677);
+    justify-content: center;
+    align-items: center;
+
+}
+
 .picture_box{
-    width: 50%;
-    height: 50%;
+    width: 85%;
+    height: 85%;
     background-color: black;
     background-image: url("./images/music-lessons.jpeg");
     background-position: center;
@@ -166,14 +176,24 @@ h1 {
     height: 100%;
 }
 
-.text_box {
+.text_border {
+    display: flex;
     width: 80%;
-    height: 50%;
+    height: 40%;
+    background-color: rgba(0, 0, 0, 0.677);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.text_box {
+    width: 90%;
+    height: 40%;
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     /* background-color: rgba(0, 0, 0, 0.661); */
-    margin-top: 20%;
+    /* margin-top: 20%; */
 }
 
 h1 {
@@ -197,9 +217,7 @@ h1 {
     width: 50%;
     height: 50%;
     background-color: rgba(0, 0, 0, 0.677);
-    animation: fadeInAnimation ease 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+
 }
 
 .contact_textbox{
@@ -209,5 +227,8 @@ h1 {
     width: 75%;
     height: 100%;
     white-space: pre-wrap;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
