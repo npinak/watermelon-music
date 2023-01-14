@@ -1,6 +1,7 @@
 import './style.css'; // import css style sheet 
 import lessons from './lessons.js'
 import home_page from './home.js'
+import contact_page from './contact.js'
 
 function restuarant_page(){
 
@@ -32,6 +33,11 @@ function restuarant_page(){
     lesson_button.innerText = "Lessons"
     lesson_button.setAttribute("id", "lesson_button")
 
+    const contact_button = document.createElement("button")
+    contact_button.classList.add("header_button")
+    contact_button.innerText = "Contact Us"
+    contact_button.setAttribute("id", "contact_button")
+
     // header text
     const header_text = document.createElement('h1');
     var text = document.createTextNode("Watermelon Music");
@@ -48,12 +54,13 @@ function restuarant_page(){
     left_side_header.appendChild(header_text);
     right_side_header.appendChild(home_button);
     right_side_header.appendChild(lesson_button);
+    right_side_header.appendChild(contact_button);
     
     console.log(main_div)
 
     document.getElementById("lesson_button").onclick = lessons;
     document.getElementById("home_button").onclick = home_page; 
-    home_page()
+    document.getElementById("contact_button").onclick = contact_page;
 
  
 

@@ -19,8 +19,11 @@ function home_page(){
     // Picture Side
     const picture_side = document.createElement('div')
     const picture_box = document.createElement('div')
+    const picture_border = document.createElement('div')
     home_page.appendChild(picture_side)
     picture_side.appendChild(picture_box)
+    picture_side.appendChild(picture_border)
+    picture_border.appendChild(picture_box)
     picture_side.classList.add('picture_side')
     picture_box.classList.add('picture_box')
 

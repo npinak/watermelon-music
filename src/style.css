@@ -179,3 +179,35 @@ h1 {
 h1 {
     color: white;
 }
+
+/* Contact Page */
+
+.contact_page{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+} 
+
+.contact_text_div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.677);
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.contact_textbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 100%;
+    white-space: pre-wrap;
+}
+
