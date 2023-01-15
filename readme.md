@@ -1,4 +1,4 @@
-[View Here!](google.com)
+[View Here!](https://npinak.github.io/watermelon-music/)
 
  Mock-up of a music store website.
 
